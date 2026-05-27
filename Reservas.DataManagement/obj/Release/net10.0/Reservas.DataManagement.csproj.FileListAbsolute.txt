@@ -1,0 +1,15 @@
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\bin\Release\net10.0\Reservas.DataManagement.deps.json
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\bin\Release\net10.0\Reservas.DataManagement.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\bin\Release\net10.0\Reservas.DataManagement.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\bin\Release\net10.0\Reservas.DataAccess.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\bin\Release\net10.0\Reservas.DataAccess.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.AssemblyInfo.cs
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.53D82F68.Up2Date
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\refint\Reservas.DataManagement.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\Reservas.DataManagement.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataManagement\obj\Release\net10.0\ref\Reservas.DataManagement.dll

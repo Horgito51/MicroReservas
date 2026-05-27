@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Reservas.API/Reservas.API.csproj" />
+    <Project Path="Reservas.Business/Reservas.Business.csproj" />
+    <Project Path="Reservas.Contracts/Reservas.Contracts.csproj" />
+    <Project Path="Reservas.DataAccess/Reservas.DataAccess.csproj" />
+    <Project Path="Reservas.DataManagement/Reservas.DataManagement.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Project Path="../Microservicio.Alojamiento/Alojamiento.Contracts/Alojamiento.Contracts.csproj" />
+</Solution>

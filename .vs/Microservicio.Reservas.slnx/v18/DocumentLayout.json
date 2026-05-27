@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62667FA4-F3B3-3114-330E-A4F6728DBC2F}|Reservas.API\\Reservas.API.csproj|c:\\users\\jorge\\onedrive\\escritorio\\puce\\semestre 6\\integracion de sistemas\\microfinal - no dockers\\microservicio.reservas\\reservas.api\\grpcservices\\clientegrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62667FA4-F3B3-3114-330E-A4F6728DBC2F}|Reservas.API\\Reservas.API.csproj|solutionrelative:reservas.api\\grpcservices\\clientegrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA216AB1-227C-B4B3-B2B4-D2341A34DA10}|Reservas.DataAccess\\Reservas.DataAccess.csproj|c:\\users\\jorge\\onedrive\\escritorio\\puce\\semestre 6\\integracion de sistemas\\microfinal - no dockers\\microservicio.reservas\\reservas.dataaccess\\configurations\\reservas\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA216AB1-227C-B4B3-B2B4-D2341A34DA10}|Reservas.DataAccess\\Reservas.DataAccess.csproj|solutionrelative:reservas.dataaccess\\configurations\\reservas\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteGrpcService.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\Reservas.API\\GrpcServices\\ClienteGrpcService.cs",
+              "RelativeDocumentMoniker": "Reservas.API\\GrpcServices\\ClienteGrpcService.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\Reservas.API\\GrpcServices\\ClienteGrpcService.cs",
+              "RelativeToolTip": "Reservas.API\\GrpcServices\\ClienteGrpcService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T02:04:10.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\Reservas.DataAccess\\Configurations\\Reservas\\ClienteConfiguration.cs",
+              "RelativeDocumentMoniker": "Reservas.DataAccess\\Configurations\\Reservas\\ClienteConfiguration.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\Reservas.DataAccess\\Configurations\\Reservas\\ClienteConfiguration.cs",
+              "RelativeToolTip": "Reservas.DataAccess\\Configurations\\Reservas\\ClienteConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T02:03:36.871Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

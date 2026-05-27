@@ -1,0 +1,14 @@
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\bin\Release\net10.0\Reservas.DataAccess.deps.json
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\bin\Release\net10.0\Reservas.DataAccess.runtimeconfig.json
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\bin\Release\net10.0\Reservas.DataAccess.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\bin\Release\net10.0\Reservas.DataAccess.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.AssemblyInfo.cs
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\refint\Reservas.DataAccess.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\Reservas.DataAccess.genruntimeconfig.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.DataAccess\obj\Release\net10.0\ref\Reservas.DataAccess.dll

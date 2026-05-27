@@ -1,0 +1,318 @@
+syntax = "proto3";
+
+package hotel.reservas.v1;
+
+option csharp_namespace = "Reservas.Contracts.Grpc.V1";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+service ClienteGrpc {
+  rpc GetClienteById(IdRequest) returns (Cliente);
+  rpc GetClienteByGuid(GuidRequest) returns (Cliente);
+  rpc GetClienteByCorreo(CorreoRequest) returns (Cliente);
+  rpc ListClientes(PageRequest) returns (ClientePage);
+  rpc CreateCliente(ClienteCreateRequest) returns (Cliente);
+  rpc UpdateCliente(ClienteUpdateRequest) returns (google.protobuf.Empty);
+  rpc DeleteCliente(IdRequest) returns (google.protobuf.Empty);
+}
+
+service ReservaGrpc {
+  rpc GetReservaById(IdRequest) returns (Reserva);
+  rpc GetReservaByGuid(GuidRequest) returns (Reserva);
+  rpc GetReservaByCodigo(CodigoReservaRequest) returns (Reserva);
+  rpc GetReservaSnapshot(GuidRequest) returns (ReservaSnapshot);
+  rpc GetReservaForCheckIn(GuidRequest) returns (ReservaCheckInResponse);
+  rpc ListReservas(ReservaFiltroRequest) returns (ReservaPage);
+  rpc CreateReserva(ReservaCreateRequest) returns (Reserva);
+  rpc CrearReservaPublica(ReservaPublicCreateRequest) returns (Reserva);
+  rpc CrearReservaInterna(ReservaInternalCreateRequest) returns (Reserva);
+  rpc CrearReservaAccommodation(ReservaPublicCreateRequest) returns (Reserva);
+  rpc CreateReservaPorTipoHabitacion(ReservaPorTipoHabitacionRequest) returns (Reserva);
+  rpc CalcularPrecioHabitacion(CalcularPrecioHabitacionRequest) returns (ReservaPrecio);
+  rpc UpdateReserva(ReservaUpdateRequest) returns (google.protobuf.Empty);
+  rpc ConfirmarReserva(ReservaEstadoRequest) returns (google.protobuf.Empty);
+  rpc CancelarReserva(CancelarReservaRequest) returns (google.protobuf.Empty);
+  rpc FinalizarReserva(ReservaEstadoRequest) returns (google.protobuf.Empty);
+  rpc PuedeCancelar(IdRequest) returns (BoolResponse);
+  rpc ValidateStayForReview(ValidateStayForReviewRequest) returns (ValidateStayForReviewResponse);
+}
+
+message IdRequest { int32 id = 1; }
+message GuidRequest { string guid = 1; }
+message PageRequest { int32 page_number = 1; int32 page_size = 2; }
+message BoolResponse { bool value = 1; }
+message CorreoRequest { string correo = 1; }
+message CodigoReservaRequest { string codigo = 1; }
+
+message Cliente {
+  int32 id_cliente = 1;
+  string cliente_guid = 2;
+  string tipo_identificacion = 3;
+  string numero_identificacion = 4;
+  string nombres = 5;
+  string apellidos = 6;
+  string razon_social = 7;
+  string correo = 8;
+  string telefono = 9;
+  string direccion = 10;
+  string estado = 11;
+  bool es_eliminado = 12;
+  bytes row_version = 13;
+}
+
+message ClienteCreateRequest {
+  string tipo_identificacion = 1;
+  string numero_identificacion = 2;
+  string nombres = 3;
+  string apellidos = 4;
+  string razon_social = 5;
+  string correo = 6;
+  string telefono = 7;
+  string direccion = 8;
+  string estado = 9;
+}
+
+message ClienteUpdateRequest {
+  int32 id_cliente = 1;
+  string nombres = 2;
+  string apellidos = 3;
+  string razon_social = 4;
+  string correo = 5;
+  string telefono = 6;
+  string direccion = 7;
+  string estado = 8;
+}
+
+message ClientePage {
+  repeated Cliente items = 1;
+  int32 total_count = 2;
+  int32 page_number = 3;
+  int32 page_size = 4;
+}
+
+message ReservaHabitacion {
+  int32 id_reserva_habitacion = 1;
+  string reserva_habitacion_guid = 2;
+  int32 id_reserva = 3;
+  int32 id_habitacion = 4;
+  google.protobuf.StringValue habitacion_guid = 5;
+  google.protobuf.Int32Value id_tarifa = 6;
+  google.protobuf.StringValue tarifa_guid = 7;
+  google.protobuf.Timestamp fecha_inicio = 8;
+  google.protobuf.Timestamp fecha_fin = 9;
+  int32 num_adultos = 10;
+  int32 num_ninos = 11;
+  string precio_noche_aplicado = 12;
+  string subtotal_linea = 13;
+  string valor_iva_linea = 14;
+  string descuento_linea = 15;
+  string total_linea = 16;
+  string estado_detalle = 17;
+}
+
+message Reserva {
+  int32 id_reserva = 1;
+  string reserva_guid = 2;
+  string codigo_reserva = 3;
+  int32 id_cliente = 4;
+  int32 id_sucursal = 5;
+  google.protobuf.StringValue sucursal_guid = 6;
+  google.protobuf.Timestamp fecha_reserva_utc = 7;
+  google.protobuf.Timestamp fecha_inicio = 8;
+  google.protobuf.Timestamp fecha_fin = 9;
+  string subtotal_reserva = 10;
+  string valor_iva = 11;
+  string total_reserva = 12;
+  string descuento_aplicado = 13;
+  string saldo_pendiente = 14;
+  string origen_canal_reserva = 15;
+  string estado_reserva = 16;
+  string motivo_cancelacion = 17;
+  string observaciones = 18;
+  bool es_walkin = 19;
+  repeated ReservaHabitacion habitaciones = 20;
+  bytes row_version = 21;
+}
+
+message ReservaCreateRequest {
+  int32 id_cliente = 1;
+  int32 id_sucursal = 2;
+  google.protobuf.StringValue cliente_guid = 3;
+  google.protobuf.StringValue sucursal_guid = 4;
+  ClienteCreateRequest cliente = 5;
+  google.protobuf.Timestamp fecha_inicio = 6;
+  google.protobuf.Timestamp fecha_fin = 7;
+  string subtotal_reserva = 8;
+  string valor_iva = 9;
+  string total_reserva = 10;
+  string descuento_aplicado = 11;
+  string saldo_pendiente = 12;
+  string origen_canal_reserva = 13;
+  string estado_reserva = 14;
+  string observaciones = 15;
+  bool es_walkin = 16;
+  repeated ReservaHabitacionCreateRequest habitaciones = 17;
+}
+
+message ReservaHabitacionCreateRequest {
+  int32 id_habitacion = 1;
+  google.protobuf.StringValue tipo_habitacion_guid = 2;
+  int32 num_habitaciones = 3;
+  google.protobuf.Int32Value id_tarifa = 4;
+  google.protobuf.Timestamp fecha_inicio = 5;
+  google.protobuf.Timestamp fecha_fin = 6;
+  int32 num_adultos = 7;
+  int32 num_ninos = 8;
+  string precio_noche_aplicado = 9;
+  string subtotal_linea = 10;
+  string valor_iva_linea = 11;
+  string descuento_linea = 12;
+  string total_linea = 13;
+  string estado_detalle = 14;
+}
+
+message ReservaPorTipoHabitacionRequest {
+  int32 id_cliente = 1;
+  int32 id_sucursal = 2;
+  google.protobuf.Timestamp fecha_inicio = 3;
+  google.protobuf.Timestamp fecha_fin = 4;
+  string origen_canal_reserva = 5;
+  string observaciones = 6;
+  string descuento_aplicado = 7;
+  bool es_walkin = 8;
+  bool exigir_permite_reserva_publica = 9;
+  repeated ReservaTipoHabitacionRequest habitaciones = 10;
+}
+
+message ReservaPublicCreateRequest {
+  string sucursal_guid = 1;
+  google.protobuf.Timestamp fecha_inicio = 2;
+  google.protobuf.Timestamp fecha_fin = 3;
+  string origen_canal_reserva = 4;
+  string observaciones = 5;
+  string descuento_aplicado = 6;
+  bool es_walkin = 7;
+  ClienteReservaPublicRequest cliente = 8;
+  repeated ReservaHabitacionTipoRequest habitaciones = 9;
+}
+
+message ReservaInternalCreateRequest {
+  string cliente_guid = 1;
+  string sucursal_guid = 2;
+  google.protobuf.Timestamp fecha_inicio = 3;
+  google.protobuf.Timestamp fecha_fin = 4;
+  string descuento_aplicado = 5;
+  string observaciones = 6;
+  bool es_walkin = 7;
+  string origen_canal_reserva = 8;
+  repeated ReservaHabitacionTipoRequest habitaciones = 9;
+}
+
+message ClienteReservaPublicRequest {
+  string tipo_identificacion = 1;
+  string numero_identificacion = 2;
+  string nombres = 3;
+  string apellidos = 4;
+  string correo = 5;
+  string telefono = 6;
+  string direccion = 7;
+}
+
+message ReservaHabitacionTipoRequest {
+  string tipo_habitacion_guid = 1;
+  int32 num_habitaciones = 2;
+  int32 num_adultos = 3;
+  int32 num_ninos = 4;
+  string descuento_linea = 5;
+}
+
+message ReservaTipoHabitacionRequest {
+  string tipo_habitacion_guid = 1;
+  int32 num_habitaciones = 2;
+  int32 num_adultos = 3;
+  int32 num_ninos = 4;
+}
+
+message ReservaUpdateRequest {
+  int32 id_reserva = 1;
+  google.protobuf.Timestamp fecha_inicio = 2;
+  google.protobuf.Timestamp fecha_fin = 3;
+  string subtotal_reserva = 4;
+  string valor_iva = 5;
+  string total_reserva = 6;
+  string descuento_aplicado = 7;
+  string saldo_pendiente = 8;
+  string estado_reserva = 9;
+  string observaciones = 10;
+}
+
+message ReservaFiltroRequest {
+  PageRequest page = 1;
+  google.protobuf.Int32Value id_cliente = 2;
+  google.protobuf.Int32Value id_sucursal = 3;
+  string estado_reserva = 4;
+  string codigo_reserva = 5;
+  google.protobuf.BoolValue es_walkin = 6;
+  google.protobuf.BoolValue es_eliminado = 7;
+}
+
+message ReservaPage {
+  repeated Reserva items = 1;
+  int32 total_count = 2;
+  int32 page_number = 3;
+  int32 page_size = 4;
+}
+
+message CalcularPrecioHabitacionRequest {
+  int32 id_habitacion = 1;
+  google.protobuf.Timestamp fecha_inicio = 2;
+  google.protobuf.Timestamp fecha_fin = 3;
+  string canal = 4;
+}
+
+message ReservaPrecio {
+  int32 id_habitacion = 1;
+  string habitacion_guid = 2;
+  int32 id_sucursal = 3;
+  google.protobuf.Int32Value id_tarifa = 4;
+  string precio_noche_aplicado = 5;
+  string subtotal_linea = 6;
+  string valor_iva_linea = 7;
+  string total_linea = 8;
+  string origen_precio = 9;
+}
+
+message ReservaEstadoRequest {
+  int32 id_reserva = 1;
+  string usuario = 2;
+}
+
+message CancelarReservaRequest {
+  int32 id_reserva = 1;
+  string motivo = 2;
+  string usuario = 3;
+}
+
+message ReservaSnapshot {
+  Reserva reserva = 1;
+  Cliente cliente = 2;
+}
+
+message ReservaCheckInResponse {
+  bool puede_checkin = 1;
+  string mensaje = 2;
+  Reserva reserva = 3;
+}
+
+message ValidateStayForReviewRequest {
+  int32 id_estadia = 1;
+  int32 id_cliente = 2;
+  int32 id_sucursal = 3;
+}
+
+message ValidateStayForReviewResponse {
+  bool valida = 1;
+  string mensaje = 2;
+}

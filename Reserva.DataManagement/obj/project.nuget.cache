@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jvIEpGIO3a0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Puce\\Semestre 6\\Integracion de sistemas\\MicroFinal - No dockers\\Microservicio.Reservas\\Reserva.DataManagement\\Reserva.DataManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jorge\\.nuget\\packages\\google.protobuf\\3.30.2\\google.protobuf.3.30.2.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\grpc.core.api\\2.55.0\\grpc.core.api.2.55.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\grpc.net.client\\2.55.0\\grpc.net.client.2.55.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\grpc.net.common\\2.55.0\\grpc.net.common.2.55.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\grpc.tools\\2.55.1\\grpc.tools.2.55.1.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

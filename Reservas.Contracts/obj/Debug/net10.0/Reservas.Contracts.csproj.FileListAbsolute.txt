@@ -1,0 +1,33 @@
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.deps.json
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.AssemblyInfo.cs
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\refint\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\ref\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.deps.json
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\bin\Debug\net10.0\Reservas.Contracts.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.AssemblyInfo.cs
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\refint\Reservas.Contracts.dll
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\Reservas.Contracts.pdb
+C:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\Microservicio.Reservas\Reservas.Contracts\obj\Debug\net10.0\ref\Reservas.Contracts.dll
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\ReservasApiAdditionalProps\Reservas.Contracts.deps.json
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\ReservasApiAdditionalProps\Reservas.Contracts.dll
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\ReservasApiAdditionalProps\Reservas.Contracts.pdb
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\Alojamiento.API\Reservas.Contracts.deps.json
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\Alojamiento.API\Reservas.Contracts.dll
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\Alojamiento.API\Reservas.Contracts.pdb
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\HotelJJ.API\Reservas.Contracts.deps.json
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\HotelJJ.API\Reservas.Contracts.dll
+c:\Users\jorge\OneDrive\Escritorio\Puce\Semestre 6\Integracion de sistemas\MicroFinal - No dockers\buildcheck\HotelJJ.API\Reservas.Contracts.pdb
